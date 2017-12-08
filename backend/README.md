@@ -10,7 +10,7 @@ For environment and build information, see the [Dockerfile](#dockerfile) section
 + [Server Structure](#app-structure)
   + [API Implementation](#api-implementation)
     + [RESTful Endpoints](#restful-endpoints)
-    + [Socket.IO](#socket.io)
+    + [SocketIO](#socketio)
   + [Folder Structure](#folder-structure)
 + [Dockerfile](#dockerfile)
   + [Node and Linux Versions](#node-and-linux-versions)
@@ -34,7 +34,7 @@ For environment and build information, see the [Dockerfile](#dockerfile) section
 + **Routes** for executing and responding to API requests are in `routes/CurrencyRoutes.js`
 + Helper functions for comparing/backing up currency rates/currency names to **MongoDB** are also stored in `routes/CurrencyRoutes.js`, as there are only two of them.
 + **Schemas/models** for **MongoDB** are stored in `schemas/`.
-+ **Socket.io** is configured in App.js rather than in a file in a subdirectory for simplicity's sake.
++ **Socket.IO** is configured in App.js rather than in a file in a subdirectory for simplicity's sake.
 
 
 ### API implementation
@@ -57,7 +57,7 @@ Retrieve a list of available currencies and their full names from either the Ope
 
 Retrieve historic currency rates for any day since 1999 from the European Central Bank via Fixer.io (fewer currencies available than from OER, but historic API is free).
 
-#### Socket.IO
+#### SocketIO
 
 This backend server's Socket.IO channel, `rate stream`, is published in  [/app.js](https://github.com/njwest/MERN-Docker-ExRatese/tree/master/backend/app.js).
 
