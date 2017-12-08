@@ -2,7 +2,7 @@
 
 This React app was bootstrapped with the [Create React App](https://github.com/facebookincubator/create-react-app) CLI and manually dockerized.
 
-This app uses custom CSS and the [**Bulma CSS**](https://bulma.io/) framework.
+This app uses custom CSS, the [**Bulma CSS**](https://bulma.io/) framework, and [**FontAwesome**](http://fontawesome.io/) icons.
 
 For environment and build information, see the [Dockerfile](#dockerfile) section below.
 
@@ -24,6 +24,7 @@ For environment and build information, see the [Dockerfile](#dockerfile) section
 + [**Axios**](https://github.com/axios/axios) for Promise-based `GET` requests. (`axios`).
 + [**Socket.io-Client**](https://github.com/socketio/socket.io-client) for subscribing to Socket.io feeds (`socket.io-client`).
 + [**MomentJS**](https://github.com/moment/moment/) for converting JS timestamps to legible strings.
++ [**react-github-corner**](https://github.com/skratchdot/react-github-corner) for the GitHub corner SVG component.
 
 
 ## App Structure
