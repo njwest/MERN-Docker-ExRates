@@ -1,6 +1,6 @@
 # A Dockerized MERN Exchange Rate App
 
-A multi-container **Docker** app with a React frontend, a Node/Express/mongoDB (the **MERN** stack).
+A multi-container **Docker-compose** app with a React frontend, a Node/Express/mongoDB (the **MERN** stack).
 
 [**Click to Run Demo**](http://128.199.130.212:5000)
 
