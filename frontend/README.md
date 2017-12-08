@@ -1,6 +1,8 @@
 # Frontend with React
 
-This React app bootstrapped with the [Create React App](https://github.com/facebookincubator/create-react-app) CLI and manually dockerized.
+This React app was bootstrapped with the [Create React App](https://github.com/facebookincubator/create-react-app) CLI and manually dockerized.
+
+This app uses custom CSS and the [**Bulma CSS**](https://bulma.io/) framework.
 
 For environment and build information, see the [Dockerfile](#dockerfile) section below.
 
