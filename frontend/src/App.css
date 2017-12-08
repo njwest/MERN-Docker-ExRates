@@ -1,0 +1,130 @@
+label {
+  color: white !important;
+}
+
+.centered {
+  text-align: center;
+}
+
+.currency-select {
+  width: 200px;
+}
+
+.activeLink {
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.topSelects{
+  z-index: 1;
+}
+
+#historicForm {
+  margin-bottom: 25px;
+}
+
+.slideIn {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slideDown {
+  animation: 1s ease-out 0s 1 slideDownFromTop;
+}
+
+@keyframes slideDownFromTop {
+  0% {
+    transform: translatey(-100%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+
+.slideUp {
+  animation: 1s ease-out 0s 1 slideUpFromBottom;
+}
+
+@keyframes slideUpFromBottom {
+  0% {
+    transform: translatey(100%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+.slideUpOver100 {
+  animation: 1s ease-out 0s 1 slideUpFromBottomPlus;
+}
+
+@keyframes slideUpFromBottomPlus {
+  0% {
+    transform: translatey(100%);
+  }
+
+  80% {
+    transform: translatey(-15%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+
+}
+
+.loading {
+  font-size: 30px;
+}
+
+.loading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026";
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+}
+
+.footerOctoCat {
+  visibility: hidden !important;
+}
+
+@media(max-width: 550px){
+  .footerOctoCat{
+    visibility: visible !important;
+  }
+  .headerOctoCat{
+    visibility: hidden !important;
+  }
+}
+
+@media(max-width: 770px) {
+  .switch-button{
+    margin-bottom: 20px;
+  }
+}
