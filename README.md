@@ -1,4 +1,4 @@
-# Aftership Challenge: Three-tier Dockerized MERN Exchange Rate App
+# A Dockerized MERN Exchange Rate App
 
 A multi-container **Docker** app with a React frontend, a Node/Express/mongoDB (the **MERN** stack).
 
@@ -28,7 +28,7 @@ Currently deployed to a [**Digital Ocean**](https://www.digitalocean.com) drople
 4. A free-tier Polygon.io API Key (https://polygon.io)
 
 **Clone and Run**
-1. `git clone git@github.com:njwest/AftershipExRateChallenge.git [NewAppDir]`
+1. `git clone git@github.com:njwest/MERN-Docker-ExRates.git [NewAppDir]`
 2. `cd [NewAppDir]`
 3. Add your Polygon and Open Exchange Rate secrets to the relevant fields in `docker-compose.yaml`
 3. `docker-compose build`
@@ -39,7 +39,7 @@ Currently deployed to a [**Digital Ocean**](https://www.digitalocean.com) drople
 
 This app was developed with three-tier architecture, as in Frontend<->API Server<->Database.
 
-![App Architecture Diagram](https://github.com/njwest/AftershipExRateChallenge/blob/master/3-tier-diagram.png "App Architecture Diagram")
+![App Architecture Diagram](https://github.com/njwest/MERN-Docker-ExRates/blob/master/3-tier-diagram.png "App Architecture Diagram")
 
 
 ## Dev Decisions
@@ -63,12 +63,12 @@ To my mind, DO VPSs are ideal for demoing, as building the same demo on a networ
 
 ## Frontend
 
-For an overview of the **React frontend**, visit the [**Frontend Readme**](https://github.com/njwest/AftershipExRateChallenge/tree/master/frontend#frontend-with-react)
+For an overview of the **React frontend**, visit the [**Frontend Readme**](https://github.com/njwest/MERN-Docker-ExRates/tree/master/frontend#frontend-with-react)
 
 
 ## Backend
 
-For an overview of the **Node with mongoDB backend**, visit the [**Backend Readme**](https://github.com/njwest/AftershipExRateChallenge/tree/master/backend#backend-with-node-and-mongodb)
+For an overview of the **Node with mongoDB backend**, visit the [**Backend Readme**](https://github.com/njwest/MERN-Docker-ExRates/tree/master/backend#backend-with-node-and-mongodb)
 
 
 ## Potential Improvements

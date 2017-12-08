@@ -41,7 +41,7 @@ For environment and build information, see the [Dockerfile](#dockerfile) section
 
 #### RESTful Endpoints
 
-This backend server's RESTful API endpoints are established in [/routes/CurrencyRoutes.js](https://github.com/njwest/AftershipExRateChallenge/tree/master/backend/routes/CurrencyRoutes.js).
+This backend server's RESTful API endpoints are established in [/routes/CurrencyRoutes.js](https://github.com/njwest/MERN-Docker-ExRates/tree/master/backend/routes/CurrencyRoutes.js).
 
 The base route for these endpoints, '/api/', is established in `app.js`.
 
@@ -59,7 +59,7 @@ Retrieve historic currency rates for any day since 1999 from the European Centra
 
 #### Socket.IO
 
-This backend server's Socket.IO channel, `rate stream`, is published in  [/app.js](https://github.com/njwest/AftershipExRateChallenge/tree/master/backend/app.js).
+This backend server's Socket.IO channel, `rate stream`, is published in  [/app.js](https://github.com/njwest/MERN-Docker-ExRatese/tree/master/backend/app.js).
 
 This socket channel serves the latest Bid/Ask quote from the Polygon.io API.
 
@@ -113,4 +113,4 @@ RUN yarn install
 CMD [ "npm", "start" ]
 ```
 
-[**Back to Repo Home**](https://github.com/njwest/AftershipExRateChallenge)
+[**Back to Repo Home**](https://github.com/njwest/MERN-Docker-ExRates)
