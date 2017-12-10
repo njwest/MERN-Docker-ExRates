@@ -4,7 +4,7 @@ A multi-container **Docker-compose** app with a React frontend, a Node/Express/m
 
 [**Click to Run Demo**](http://128.199.130.212:5000)
 
-Currently deployed to a [**Digital Ocean**]((https://m.do.co/c/977d7ae68b56)) droplet running **Ubuntu 16.04**.
+Currently deployed to a [**Digital Ocean**](https://m.do.co/c/977d7ae68b56) droplet running **Ubuntu 16.04**.
 
 
 ### Table of Contents
