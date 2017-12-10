@@ -4,7 +4,7 @@ A multi-container **Docker-compose** app with a React frontend, a Node/Express/m
 
 [**Click to Run Demo**](http://128.199.130.212:5000)
 
-Currently deployed to a [**Digital Ocean**](https://www.digitalocean.com) droplet running **Ubuntu 16.04**.
+Currently deployed to a [**Digital Ocean**]((https://m.do.co/c/977d7ae68b56)) droplet running **Ubuntu 16.04**.
 
 
 ### Table of Contents
@@ -56,9 +56,9 @@ I opted to use **docker-compose** to build this app as it creates network relati
 
 ##### Why Digital Ocean
 
-I deployed this demo to a **Digital Ocean droplet** because said droplets are inexpensive VPSs with static IPs with root access.
+I deployed this demo to a [**Digital Ocean droplet**](https://m.do.co/c/977d7ae68b56) because said droplets are inexpensive VPSs with static IPs with root access.
 
-To my mind, DO VPSs are ideal for demoing, as building the same demo on a network of AWS or GCP services would cost more time and money for features this demo will not need.
+To my mind, [**Digital Ocean VPSs**](https://m.do.co/c/977d7ae68b56) are ideal for demoing, as building the same demo on a network of AWS or GCP services would cost more time and money for features this demo will not need.
 
 
 ## Frontend
